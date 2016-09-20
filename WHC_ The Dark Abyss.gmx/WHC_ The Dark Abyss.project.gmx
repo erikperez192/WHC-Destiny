@@ -5,14 +5,34 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprites name="Main Character">
+      <sprite>sprites\s_destiny</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\b_star_close</background>
+    <background>background\b_Plain</background>
+    <background>background\b_star_far</background>
+    <background>background\b_wood</background>
+    <background>background\fantasy_tiles</background>
+    <background>background\s_hospital_room_alive_0</background>
+    <background>background\b_woof</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <objects name="Main Character">
+      <object>objects\o_destiny</object>
+    </objects>
     <objects name="Parent Objects">
-      <object>objects\parent_ini</object>
+      <object>objects\o_enemy_parent</object>
     </objects>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\r_menu</room>
+    <room>rooms\r_space</room>
+    <room>rooms\r_hospital</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
